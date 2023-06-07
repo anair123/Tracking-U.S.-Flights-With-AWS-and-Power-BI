@@ -1,3 +1,4 @@
 venv/
-config.py
+aws_keys.py
 flights_credentials.csv
+ETL.ipynb
