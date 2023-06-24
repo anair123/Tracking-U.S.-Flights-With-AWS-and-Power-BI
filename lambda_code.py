@@ -163,8 +163,3 @@ airport_pd.to_csv(csv_buffer, index=False)
 s3.put_object(Bucket='flights-data-processed', 
               Body=csv_buffer.getvalue(), 
               Key='airports.csv')
-
-# %%
-
-
-
